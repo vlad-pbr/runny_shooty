@@ -15,6 +15,22 @@ static TAutoConsoleVariable<float> CVarMVBounceQuickturnThreshold(
 	ECVF_Default
 );
 
+// CHEAT
+static TAutoConsoleVariable<float> CVarMVBounceBoostThreshold(
+	TEXT("mv.Bounce.BoostThreshold"),
+	-100.0f,
+	TEXT("Player is boosted if velocity Z is above this value."),
+	ECVF_Default
+);
+
+// CHEAT
+static TAutoConsoleVariable<float> CVarMVBounceBoostMultiplier(
+	TEXT("mv.Bounce.BoostMultiplier"),
+	0.75f,
+	TEXT("Base jump velocity is multiplied by this value and player is boosted using the result."),
+	ECVF_Default
+);
+
 static TAutoConsoleVariable<float> CVarMVQuickturnInterpSpeed(
 	TEXT("mv.Quickturn.InterpSpeed"),
 	15.0f,
