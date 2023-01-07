@@ -26,7 +26,7 @@ static TAutoConsoleVariable<float> CVarMVBounceBoostThreshold(
 // CHEAT
 static TAutoConsoleVariable<float> CVarMVBounceBoostMultiplier(
 	TEXT("mv.Bounce.BoostMultiplier"),
-	1.2f,
+	1.75f,
 	TEXT("Boost velocity is multiplied by this value and player is boosted using the result."),
 	ECVF_Default
 );
