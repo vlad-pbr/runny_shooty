@@ -10,7 +10,7 @@ static TAutoConsoleVariable<float> CVarMVBounce180Threshold(
 
 static TAutoConsoleVariable<float> CVarMVBounceQuickturnThreshold(
 	TEXT("mv.Bounce.QuickturnThreshold"),
-	90.0f,
+	35.0f,
 	TEXT("Angle between the obstacle normal and player view angle must not exceed this value for quickturn to be performed."),
 	ECVF_Default
 );
