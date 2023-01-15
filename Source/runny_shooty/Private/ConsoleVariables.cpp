@@ -37,3 +37,19 @@ static TAutoConsoleVariable<float> CVarMVQuickturnInterpSpeed(
 	TEXT("How fast should the quickturn interpolation be."),
 	ECVF_Default
 );
+
+// CHEAT
+static TAutoConsoleVariable<float> CVarMVSlideBoostMultiplier(
+	TEXT("mv.Slide.BoostMultiplier"),
+	1.25f,
+	TEXT("Player velocity is multiplied by this value which results in final slide velocity."),
+	ECVF_Default
+);
+
+// CHEAT
+static TAutoConsoleVariable<float> CVarMVSlideDurationSeconds(
+	TEXT("mv.Slide.DurationSeconds"),
+	1.0f,
+	TEXT("For how long should the player slide."),
+	ECVF_Default
+);
