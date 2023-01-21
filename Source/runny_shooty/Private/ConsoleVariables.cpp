@@ -65,3 +65,10 @@ static TAutoConsoleVariable<bool> CVarDEVToolsShowTriggers(
 	TEXT("Visualize all trigger boxes on the level."),
 	ECVF_Default
 );
+
+static TAutoConsoleVariable<bool> CVarDEVBounceShowVelocityTrace(
+	TEXT("dev.Bounce.ShowVelocityTrace"),
+	false,
+	TEXT("Visualize velocity traces which trigger actual bounces."),
+	ECVF_Default
+);
