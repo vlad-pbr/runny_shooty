@@ -1,6 +1,8 @@
 
 #include "ConsoleVariables.h"
 
+// ===== MOVEMENT =====
+
 static TAutoConsoleVariable<float> CVarMVBounce180Threshold(
 	TEXT("mv.Bounce.180Threshold"),
 	25.0f,
@@ -51,5 +53,15 @@ static TAutoConsoleVariable<float> CVarMVSlideDurationSeconds(
 	TEXT("mv.Slide.DurationSeconds"),
 	1.0f,
 	TEXT("For how long should the player slide."),
+	ECVF_Default
+);
+
+// ===== DEV =====
+
+// CHEAT
+static TAutoConsoleVariable<bool> CVarDEVToolsShowTriggers(
+	TEXT("dev.Tools.ShowTriggers"),
+	false,
+	TEXT("Visualize all trigger boxes on the level."),
 	ECVF_Default
 );
