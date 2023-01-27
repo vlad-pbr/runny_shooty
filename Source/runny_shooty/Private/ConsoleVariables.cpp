@@ -56,6 +56,14 @@ static TAutoConsoleVariable<float> CVarMVSlideDurationSeconds(
 	ECVF_Default
 );
 
+// CHEAT
+static TAutoConsoleVariable<float> CVarMVClimbJumpOffSpeed(
+	TEXT("mv.Climb.JumpOffSpeed"),
+	500.0f,
+	TEXT("How fast a player is thrusted off the ladder."),
+	ECVF_Default
+);
+
 // ===== DEV =====
 
 // CHEAT
