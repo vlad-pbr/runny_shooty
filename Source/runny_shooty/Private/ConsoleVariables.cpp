@@ -64,6 +64,24 @@ static TAutoConsoleVariable<float> CVarMVClimbJumpOffSpeed(
 	ECVF_Default
 );
 
+// ===== ENEMIES =====
+
+// CHEAT
+static TAutoConsoleVariable<float> CVarENMSeekerDirectSeekSpeedPercentage(
+	TEXT("enm.Seeker.DirectSeekSpeedPercentage"),
+	0.5f,
+	TEXT("When seeking player directly, which percentage of player max speed should the seeker speed be."),
+	ECVF_Default
+);
+
+// CHEAT
+static TAutoConsoleVariable<float> CVarENMSeekerWaypointSeekSpeedPercentage(
+	TEXT("enm.Seeker.WaypointSeekSpeedPercentage"),
+	0.75f,
+	TEXT("When seeking player waypoints, which percentage of player max speed should the seeker speed be."),
+	ECVF_Default
+);
+
 // ===== DEV =====
 
 // CHEAT
